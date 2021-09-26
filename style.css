@@ -4,7 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Nunito', sans-serif
+    font-family: 'Nunito', sans-serif;
+    width: -webkit-fill-available;
 }
 
 :root {
@@ -20,10 +21,11 @@ body {
 }
 
 .form__container {
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
     background-color: var(--primary-color);
-    border-radius: 2rem;
-    padding: 1rem
+    /* border-radius: 2rem; */
+    padding: 1rem;
+    width: -webkit-fill-available;
 }
 
 .title__container {
@@ -47,7 +49,8 @@ body {
 }
 
 .body__container {
-    display: flex
+    display: flex;
+    height: 635px;
 }
 
 .left__container {
@@ -90,7 +93,11 @@ body {
 }
 
 .progress__bar__container ul .active {
-    background-color: var(--secondery-color)
+    background-color: var(--secondery-color);
+    margin: 34px 14px;
+    padding: 1rem 2.25rem 1rem 1.4rem;
+    border-radius: 136px;
+    cursor: pointer;
 }
 
 .progress__bar__container ul li {
