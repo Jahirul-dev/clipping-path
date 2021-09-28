@@ -52,9 +52,23 @@ body {
     display: flex;
     height: 635px;
 }
+.text{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .circle {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    background: #000
+  }
 
 .left__container {
-    width: 35%;
+    width: 20%;
     display: flex;
     justify-content: center;
     border-right: 1px solid #42434e;
@@ -95,9 +109,12 @@ body {
 .progress__bar__container ul .active {
     background-color: var(--secondery-color);
     margin: 34px 14px;
-    padding: 1rem 2.25rem 1rem 1.4rem;
+    padding: 1rem 9.25rem 1rem 1.4rem;
     border-radius: 136px;
     cursor: pointer;
+    padding-left: 0px;
+
+    
 }
 
 .progress__bar__container ul li {
@@ -111,7 +128,11 @@ body {
     border-radius: 50%;
     font-size: 1.4rem;
     color: #ffffff;
-    margin-left: 2rem
+    margin-left: 2rem;
+    margin: 34px 14px;
+    padding: 1rem 10.25rem 1rem 1.4rem;
+    border-radius: 136px;
+    cursor: pointer;
 }
 
 .progress__bar__container ul li::before {
