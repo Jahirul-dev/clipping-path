@@ -15,19 +15,26 @@ const icon5 = document.querySelector('#icon5');
 
 var viewId = 1;
 function nextForm(){
-console.log("hellonext");
+// console.log("hellonext");
 viewId=viewId+1;
 progressBar();
 displayForms();
+document.addEventListener("click", function(){
+    document.getElementsByClassName('circle').innerHTML = '<i class="fa fa-check" style="font-size:10px"></i>';  
 
-console.log(viewId);
+// let tessst= document.getElementById('cir1').innerHTML = '<i class="fa fa-check" style="font-size:10px"></i>';
+// document.getElementById('cir2').innerHTML = '<i class="fa fa-check" style="font-size:10px"></i>';
+// document.getElementById('cir3').innerHTML = '<i class="fa fa-check" style="font-size:10px"></i>';
+
+   
+})
 
 }
 
 function prevForm(){
-console.log("helloprev");
+// console.log("helloprev");
 viewId=viewId-1;
-console.log(viewId);
+// console.log(viewId);
 progressBar1();
 displayForms();
 }
@@ -138,10 +145,10 @@ form5.style.display = 'block';
 
 var slider = document.querySelector(".slider");
 var output = document.querySelector(".output__value");
-output.innerHTML = slider.value ;
+// output.innerHTML = slider.value ;
 
-slider.oninput = function() {
-output.innerHTML = this.value ;
+// slider.oninput = function() {
+// output.innerHTML = this.value ;
 
 
-}
+// }

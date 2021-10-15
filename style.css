@@ -7,7 +7,7 @@
 }
 
 :root {
-    --primary-color: #02044A;
+    --primary-color: #2d8ff4;
     --secondery-color: #25CC88;
     --shadow-color: #9d9fb3
 }
@@ -21,7 +21,7 @@ body {
 
 .form__container {
     /* margin-top: 4rem; */
-    background-color: #4957ff;
+    background-color: #2d8ff4;
     /* border-radius: 2rem; */
     padding: 1rem;
     width: -webkit-fill-available;
@@ -141,21 +141,24 @@ label{
     cursor: pointer;
 }
 
-.progress__bar__container ul li::before {
+/* .progress__bar__container ul li::before {
     content: '';
     width: 1px;
-    height: 11vh;
+    height: 40vh;
     position: absolute;
-    background-color: var(--shadow-color)
-}
+    background-color: var(--shadow-color);
+    margin-right: 242px;
 
-.progress__bar__container ul .active::before {
+} */
+
+/* .progress__bar__container ul .active::before {
     content: '';
     width: 1px;
-    height: 11vh;
     position: absolute;
-    background-color: var(--secondery-color)
-}
+    background-color: var(--secondery-color);
+    margin-right: 235px;
+    height: 41vh;
+} */
 
 .right__container {
     width: 65%;
@@ -488,5 +491,16 @@ a img{
     .col-md-6 {
         flex: 0 0 auto;
         width: 100%;
+
+    }
+    .progress__bar__container ul {
+        display: inline-grid;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: -395px;
+        padding: 0px 4rem;
     }
     }
+
+
