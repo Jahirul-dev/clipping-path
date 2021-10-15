@@ -21,7 +21,7 @@ body {
 
 .form__container {
     /* margin-top: 4rem; */
-    background-color: #2d8ff4;
+    background-color: #5d50a5;
     /* border-radius: 2rem; */
     padding: 1rem;
     width: -webkit-fill-available;
@@ -54,7 +54,7 @@ label{
 
 .body__container {
     display: flex;
-    height: 952px;
+    /* height: 952px; */
 }
 .text{
     display: inline-block;
