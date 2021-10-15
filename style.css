@@ -136,37 +136,27 @@ label{
     color: #ffffff;
     margin-left: 2rem;
     margin: 34px 14px;
-    /* padding: 1rem 10.25rem 1rem 1.4rem; */
     border-radius: 136px;
     cursor: pointer;
 }
-
-/* .progress__bar__container ul li::before {
-    content: '';
-    width: 1px;
-    height: 40vh;
-    position: absolute;
-    background-color: var(--shadow-color);
-    margin-right: 242px;
-
-} */
-
 /* .progress__bar__container ul .active::before {
     content: '';
     width: 1px;
     position: absolute;
     background-color: var(--secondery-color);
-    margin-right: 235px;
-    height: 41vh;
+    margin-right: 180px;
+    height: 12vh;
+    margin-top: 9%;
 } */
 
 .right__container {
     width: 65%;
     display: flex;
-    padding: 1.5rem 1.5rem
+    padding: 0.5rem 1.5rem
 }
 
-.right__container fieldset {
+.right__container fieldset 
+{
     border: none
 }
 
@@ -335,6 +325,7 @@ a img{
     position: relative
 }
 
+
 .output__value {
     display: flex;
     align-items: center;
@@ -377,7 +368,7 @@ a img{
     }
 
     .right__container {
-        width: 90%;
+        width: 99%;
         margin: 0
     }
 
@@ -442,27 +433,32 @@ a img{
 
     .progress__bar__container ul li {
         margin: 10px;
-        padding: 10px
+        /* padding: 10px */
     }
 
     .progress__bar__container ul .active::before {
         transform: rotate(90deg)
     }
+    .progress__bar__container ul .active {
+        background-color: var(--secondery-color);
+        margin: 32px 24px;
+        padding: 1rem 0.25rem 1rem 1.4rem;
+        /* border-radius: 136px; */
+        cursor: pointer;
+        /* margin-left: 40px; */
+    }
+    .actdiv{
+        margin: -15%;
+        padding: 40px;
+    }
 }
-/* ....................................... */
 
-/* ....................................... */
+
 .container {
     max-width: 900px;
     margin: 0 auto;
   }
-  /* label{
-      background-color: antiquewhite;
-  }
-   */
-  /**
-    Component
-  **/
+
   
   label {
       width: 100%;
@@ -487,6 +483,7 @@ a img{
        border-radius: 5px;
 
    }
+
    @media (max-width: 768px){
     .col-md-6 {
         flex: 0 0 auto;
@@ -498,7 +495,7 @@ a img{
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        margin-bottom: -395px;
+        /* margin-bottom: -395px; */
         padding: 0px 4rem;
     }
     }
